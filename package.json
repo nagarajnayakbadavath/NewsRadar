@@ -1,0 +1,35 @@
+{
+  "name": "newsradar",
+  "version": "1.0.0",
+  "description": "This is my news web app which is live",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagarajnayakbadavath/NewsRadar.git"
+  },
+  "keywords": [
+    "news",
+    "api"
+  ],
+  "author": "Nagaraju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagarajnayakbadavath/NewsRadar/issues"
+  },
+  "homepage": "https://github.com/nagarajnayakbadavath/NewsRadar#readme",
+  "dependencies": {
+    "process": "^0.11.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
